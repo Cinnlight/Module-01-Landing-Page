@@ -26,16 +26,22 @@
   <footer>
     <form id="contact-form">
         <h3 id="contact-me" class="text">Contact Me</h3>
+          <div id="name-container" class="entry-box">
+            <label for="name" class="text">Name:</label>
+            <input type="text" id="name" placeholder="Your name" required>
+          </div>
 
-        <label for="name" class="text">Name:</label>
-        <input type="text" id="name" placeholder="Your name" required>
+          <div id="email-container" class="entry-box">
+            <label for="email" class="text">Email:</label>
+            <input type="email" id="email" placeholder="Your email" required>
+          </div>
 
-        <label for="email" class="text">Email:</label>
-        <input type="email" id="email" placeholder="Your email" required>
-
-        <input type="submit" value="Submit" id="submit-button">
+          <div id="submit-container">
+            <input type="submit" value="Submit" id="submit-button">
+          </div>
+  
     </form>
-    <p class="text">&copy; 2024 My New Website</p>
+    <p class="text" id="copyright">&copy; 2024 My New Website</p>
   </footer>
 </body>
 </html>
