@@ -82,7 +82,8 @@ footer {
 }
 
 #submit-button {
-    margin-left: 28%;
+    margin: auto;
+    display: block;
     background-color: #5b88b1;
     color: white;
     padding: 15px 32px;
