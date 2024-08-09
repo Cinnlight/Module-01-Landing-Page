@@ -86,7 +86,19 @@ footer {
 }
 
 #submit-button {
-    margin-left: 40%
+    margin-left: 28%;
+    background-color: #5b88b1;
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#submit-button:hover {
+    background-color: #3a6186;
+    color: white;
 }
 
 #copyright {
